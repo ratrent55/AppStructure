@@ -1,14 +1,10 @@
 # Boilerplate
-### Built by [No Quarter](https://www.noquarter.co)
-
-NOTE: We now recommend using our updated [stack](https://github.com/NoQuarterTeam/boilerplate).
-
 
 <br />
 
 ## Typescript + React + React Native + GraphQL + Prisma
 
-Comes with user authentication included
+User authentication included
 
 - [React](https://github.com/facebook/react)
 - [React Native](https://github.com/facebook/react-native)
@@ -36,10 +32,6 @@ Comes with user authentication included
 & many more tasty treats
 
 <br />
-
-## Feel comfortable with this stack?
-
-We are hiring! [Contact us here](https://www.noquarter.co/#contact)
 
 <br />
 
@@ -78,7 +70,7 @@ We are hiring! [Contact us here](https://www.noquarter.co/#contact)
 <br />
 <br />
 
-We use Husky to run a couple of checks each commit (prettier, eslint & commitlint), make sure to add a
+Using Husky to run a couple of checks each commit (prettier, eslint & commitlint), make sure to add a
 `.huskyrc` file to your home directory:
 
 ```bash
@@ -97,7 +89,7 @@ then run this in the root of the project:
 npx husky install
 ```
 
-We use AWS S3 for image/file hosting, so you'll need to set up a few things for this to work, process can be found [here](./docs/setup-s3.md).
+Using AWS S3 for image/file hosting, so you'll need to set up a few things for this to work, process can be found [here](./docs/setup-s3.md).
 
 <br />
 <br />
@@ -130,7 +122,7 @@ We use AWS S3 for image/file hosting, so you'll need to set up a few things for 
 
 An example is deployed [here](https://boilerplate.noquarter.co)
 
-We are using Railway for the API package and Vercel for the WEB package
+Using Railway for the API package and Vercel for the WEB package
 
 For railway we have setup preview deploys and that gives a dynamic url that the web can use. The url includes the PR number so on the web we need to grab the PR number from git and dynamically change the API_URL when building the Next.js app. Vercel doesn't include PR numbers in the env variables so we use a package to do that for us.
 
