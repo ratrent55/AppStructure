@@ -29,8 +29,6 @@ User authentication included
 - Husky
 - Lint staged
 
-& many more tasty treats
-
 <br />
 
 <br />
